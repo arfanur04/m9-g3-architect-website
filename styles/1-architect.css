@@ -74,7 +74,8 @@ nav li a {
 }
 
 /*: ------------------------------- main styles ------------------------------ */
-main {
+main,
+footer {
 	max-width: 1440px;
 	margin: 70px auto;
 }
@@ -194,6 +195,16 @@ main {
 
 .sponsors-img-container img {
 	width: 165px;
+}
+
+/*: --------------------------------- footer --------------------------------- */
+
+footer {
+	border-radius: 8px;
+	background: #fff4e7;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	text-align: center;
 }
 
 /*: ------------------------ responsive media queries ------------------------ */
